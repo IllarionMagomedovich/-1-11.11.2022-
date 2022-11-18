@@ -6,3 +6,15 @@
 // 918 -> 1
 
 
+Console.WriteLine("Введите трехзначное число: ");
+int number = Convert.ToInt32(Console.ReadLine());
+
+int SecondDigit(int num)
+{
+    int secondDigit = num % 100;
+    int result =secondDigit / 10;
+    return result;
+
+}
+
+Console.WriteLine(SecondDigit(number));
