@@ -12,7 +12,7 @@ int RemoveSecondDigit(int num)
 {
     int firstDigit = num / 100;
     int thirdDigit = num % 10;
-    int result = firstDigit * 10 + secondDigit;
+    int result = firstDigit * 10 + thirdDigit;
     return result;
 }
 
