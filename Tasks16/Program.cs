@@ -40,4 +40,4 @@ bool Square (int number1, int number2)
 {
     return (number1 == number2*number2) || (number2 == number1 * number1);
 }
-Console.WriteLine(Square(num1, num2)? "Да" : "Нет");
+Console.WriteLine(Square(num1, num2)? "Да" : "Нет"); 
