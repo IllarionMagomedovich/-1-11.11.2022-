@@ -12,11 +12,11 @@ int num = Convert.ToInt32(Console.ReadLine());
 
  bool Multiplicity (int number1)
 {
-     if (number1 % 7 == 0  & number1 % 23 == 0 ) return true;
+     if (number1 % 7 == 0  & number1 % 23 == 0 ) return true; // return (number1 % 7 ==0) && (number1 % 23 == 0); (Ещё один способ, только без "return false")
      return false;
 }
 bool result = Multiplicity(num);
-Console.WriteLine(result ? "Да" : "Нет");
+Console.WriteLine(result ? "Да" : "Нет"); // Тернарный оператор (Тернарное вырожение)
 
 // Второй метод
 // Console.WriteLine("Введите число: ");
