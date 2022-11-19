@@ -9,7 +9,7 @@
 Console.WriteLine("Введите трехзначное число: ");
 int number = Convert.ToInt32(Console.ReadLine());
 
- if(number < 99)  
+ if(number < 100)  
 {
     Console.WriteLine("Число не трехзначное");
 }  
