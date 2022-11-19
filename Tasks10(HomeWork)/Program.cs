@@ -9,12 +9,27 @@
 Console.WriteLine("Введите трехзначное число: ");
 int number = Convert.ToInt32(Console.ReadLine());
 
-int SecondDigit(int num)
+ if(number < 99)  
 {
-    int secondDigit = num % 100;
-    int result =secondDigit / 10;
-    return result;
+    Console.WriteLine("Число не трехзначное");
+}  
 
+else
+{
+int SecondDigit(int num)
+ {
+     int secondDigit = num % 100;
+     int result =secondDigit / 10;
+     return result;
 }
+ 
 
-Console.WriteLine(SecondDigit(number));
+Console.WriteLine(SecondDigit(number));      
+} 
+ 
+
+
+
+
+
+
