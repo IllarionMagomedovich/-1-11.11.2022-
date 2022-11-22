@@ -9,36 +9,32 @@
 Console.WriteLine("Введите пятизначное число: ");
 int number = Convert.ToInt32(Console.ReadLine());
 int result = 0;
+int n = number;
 
 
-if (number < 10000) 
-    {
-      Console.WriteLine("Введенно не пятизначное число");
-    }
-    
-     while(number > 0)
+    while(number > 0)
     {
         result = result * 10;
         result = result + number % 10;
         number = number / 10;
     }
-
-  Console.WriteLine(result);
-    
-
-//    if(result % 10 == number / 10000) Console.WriteLine("Да");
-//    else Console.WriteLine("Нет");
-    
+    Console.WriteLine(result);
+   
+   if(result == n) Console.WriteLine("Да");
+   
+   else Console.WriteLine("Нет");
    
 
 
 // Console.WriteLine("Ведите число:");
 // int num = Convert.ToInt32(Console.ReadLine());
 
+
 // int RemoveSecondDigit(int n)
 // {
-//     int firstDigit = n % 10;
-//     int result = firstDigit;
+//     int firstDigit = n % 100;
+//     int result = firstDigit / 10;
 //     return result;
 // }
 // Console.WriteLine(RemoveSecondDigit(num));
+
