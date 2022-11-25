@@ -20,7 +20,7 @@ int n = number;
     }
     Console.WriteLine(result);
    
-   if(result == n) Console.WriteLine("Да");
+   if(n == result) Console.WriteLine("Да");
    
    else Console.WriteLine("Нет");
    
