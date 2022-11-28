@@ -19,7 +19,7 @@ int SumDigits(int num)
     
     return sum;
 
-}
+} 
 
 if(number > 0)
 {

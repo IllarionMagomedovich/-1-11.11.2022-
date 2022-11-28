@@ -8,20 +8,20 @@
 Console.WriteLine("Введите число: ");
 int number = Convert.ToInt32(Console.ReadLine());
 
-int DigitLength(int num)
-{
-    int n = 1;
-    for(int i = 0; i < 10 ; i++ )
-    {
-        num = num / 10;
-        if(num != 0) n++;
-        else break;
+// int DigitLength(int num)
+// {
+//     int n = 1;
+//     for(int i = 0; i < 10 ; i++ )
+//     {
+//         num = num / 10;
+//         if(num != 0) n++;
+//         else break;
 
-    }
-    return n;
-}
-int digitlength = DigitLength(number);
-Console.WriteLine(digitlength);
+//     }
+//     return n;
+// }
+// int digitlength = DigitLength(number);
+// Console.WriteLine(digitlength);
 
 // Способ через цикл while
 int Digits(int num)
@@ -39,4 +39,4 @@ int result = Digits(number);
 Console.WriteLine($"Количство цифр в числе {number} = {result} ");
 
 
-Console.WriteLine(Math.Abs(-123));
+// Console.WriteLine(Math.Abs(-123));
