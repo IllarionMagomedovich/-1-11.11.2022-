@@ -10,11 +10,14 @@ int[] CreateArrayRndInt (int size, int min, int max)
     int [] arr = new int[size];
     Random rnd = new Random();
     
+    
     for (int i = 0; i < arr.Length; i++)
     {
         arr[i] = rnd.Next(min, max + 1);
+       Console.Write($"{Math.Round(arr[i], 2)} ");
     }
     return arr;
+
 }
 
 void PrintArray (int[] arr)
@@ -24,6 +27,7 @@ void PrintArray (int[] arr)
     {
         if(i < arr.Length -1) Console.Write($"{arr[i]}, ");
         else Console.Write($"{arr[i]}");
+        Console.Write($"{Math.Round(arr[i], 2)} ");
     }
     Console.WriteLine("]");
 }
