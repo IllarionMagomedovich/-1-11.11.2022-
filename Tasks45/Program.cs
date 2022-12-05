@@ -2,6 +2,7 @@
 // Напишите программу, которая будет создавать копию
 // заданного массива с помощью поэлементного копирования.
 
+
 int[] CreateArrayRndInt(int size, int min, int max)
 {
     int[] arr = new int[size];
