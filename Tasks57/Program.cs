@@ -83,7 +83,7 @@ void CountValue(int[] arr)
 int[,] array2D = CreateMatrixRndInt (3, 4, 1, 10);
 PrintMatrix(array2D);
 int[] array = MatrixToArray(array2D);
- Array.Sort(array);
+Array.Sort(array);
 //  PrintArray(array);
  Console.WriteLine();
  CountValue(array);
